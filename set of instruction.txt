@@ -1,0 +1,21 @@
+
+## ⚙️ Setup Instructions
+
+### 1. Clone Repository
+```bash
+git clone git@github.com:Jouhar123/the-webplant-project-management.git
+cd mini-project-manager
+
+
+cd the-webplant-project-management
+npm install
+npm run dev
+
+.env setup
+PORT=5000
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
+
+
+NEXT_PUBLIC_API_URL=http://localhost:5000/api
+
